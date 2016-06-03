@@ -17,7 +17,7 @@ npm install lut
     +   [Package - cnpm](https://npm.taobao.org/package/cnpm): `npm install cnpm -g --registry=https://registry.npm.taobao.org`
 2.  install [Browserify](http://browserify.org/): `cnpm install -g browserify`
 3.  `browserify demo.js -o bundle.js`
-4.  open `index.html` in your browser, or <http://district10.github.io/lut>
+4.  open `index.html` in your browser, or <http://4ker.github.io/lut>
 
 ## Usage ##
 
