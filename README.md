@@ -10,6 +10,15 @@ Renders [RGB lookup tables](http://the-witness.net/news/2012/08/fun-with-in-engi
 npm install lut
 ```
 
+## Manual
+
+1.  install [Node.js](https://nodejs.org/en/)
+    +   <https://nodejs.org/dist/v4.4.5/node-v4.4.5-x64.msi>
+    +   [Package - cnpm](https://npm.taobao.org/package/cnpm): `npm install cnpm -g --registry=https://registry.npm.taobao.org`
+2.  install [Browserify](http://browserify.org/): `cnpm install -g browserify`
+3.  `browserify demo.js -o bundle.js`
+4.  open `index.html` in your browser, or <http://district10.github.io/lut>
+
 ## Usage ##
 
 `lut(red, green, blue, canvas)`
